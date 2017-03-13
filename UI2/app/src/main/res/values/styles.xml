@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <style name="AppTheme" parent="AppTheme.Base"/>
+        <style name="AppTheme.Base" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+            <item name="android:windowBackground">@color/md_amber_100</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        </style>
+
+        <style name="optionsStyleDialog" parent="@android:style/Theme.Dialog">
+            <item name="android:windowTitleStyle">@style/dialogTitle</item>
+        </style>
+
+        <style name="dialogTitle" parent="@android:style/TextAppearance.DialogWindowTitle">
+            <item name="android:gravity">center_horizontal</item>
+        </style>
+
+
+
+</resources>
